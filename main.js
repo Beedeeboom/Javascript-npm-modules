@@ -1,4 +1,5 @@
 import { add, subtract, number } from "./file1.js"
+import _ from "./node_modules/lodash-es/lodash.default.js"
 var global = "this is a global var";
 
 console.log(add(5, 4))
@@ -12,3 +13,4 @@ var global = "this is a global var";
 console.log(Steph.add(5, 4))
 console.log(Steph.subtract(5,4))
 console.log(Steph.number)
+console.log(_.random(1000,2000))
